@@ -37,7 +37,9 @@ How to quickly and successfull configure the environment of Ubuntu to make the L
   Then install CUDA, still, don't use the .run file,  recommend to use the .deb file
   For example, when I am doing the installation I choose Driver 418 and CUDA-10.0, so I use these commands to install cuda:
   https://developer.nvidia.com/cuda-10.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal
+  After the installation of the CUDA, reboot your engine to make your life easier. Or you may encounter some problems when you type nvidia-smi. 
   
+  Then we can start to install Pytorch. 
   
   
   
