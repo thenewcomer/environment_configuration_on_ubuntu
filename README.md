@@ -22,6 +22,8 @@ How to quickly and successfull configure the environment of Ubuntu to make the L
     CUDA 7.5 (7.5.16) 	>= 352.31 	>= 353.66
     CUDA 7.0 (7.0.28) 	>= 346.46 	>= 347.62
   For the CUDA and Pytorch version Match, please see this page:
+  https://pytorch.org/
+  I think above cuda-9.2 now still can suport the lastest Pytorch version(1.6)
   
   For the GPU driver installation, many people don't 
   sudo add-apt-repository ppa:graphics-drivers/ppa  
@@ -31,3 +33,12 @@ How to quickly and successfull configure the environment of Ubuntu to make the L
   
   After the installation, chekc the installed GPU driver version:
   grep "X Driver" /var/log/Xorg.0.log
+  
+  Then install CUDA, still, don't use the .run file,  recommend to use the .deb file
+  For example, when I am doing the installation I choose Driver 418 and CUDA-10.0, so I use these commands to install cuda:
+  https://developer.nvidia.com/cuda-10.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal
+  
+  
+  
+  
+  
